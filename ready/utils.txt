@@ -1,0 +1,12 @@
+List topics:
+
+kafka-topics.sh --list --zookeeper zookeeper:2181
+
+Create topic 
+
+kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic utec_big_data
+kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 3 --partitions 2 --topic utec_big_data
+
+Delete topic
+
+kafka-topics.sh --zookeeper zookeeper:2181 --delete --topic utec_big_data

@@ -1,0 +1,1 @@
+REDIS_STORE_KEY = "data_big_data"
